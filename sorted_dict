@@ -1,0 +1,6 @@
+d1=dict(((1,"Anu"),(2,"Ammu"),(3,"Achu")))
+print("Dictionary1       :",d1)
+d3={x:d1[x] for x in sorted(d1)}
+print("Ascending order:",d3)
+d4={x:d1[x] for x in sorted(d1, reverse=True)}
+print("Descending order:",d4)
