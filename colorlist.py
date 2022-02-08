@@ -1,0 +1,6 @@
+c1= input("Enter color list 1 :").split()
+c2=input("Enter color list 2 :").split()
+c=set(c1)-set(c2)
+print(c)
+cc=set(c2).difference(set(c1))
+print(cc)
