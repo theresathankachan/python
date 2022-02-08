@@ -1,0 +1,6 @@
+d1=dict(((1,"Anu"),(2,"Ammu"),(3,"Achu")))
+print("Dictionary1       :",d1)
+d2=dict(((4,"Abhi"),(4,"Anju"),(3,"dilu")))
+print("Dictionary2       :",d2)
+d1.update(d2)
+print("Merged Dictionary :",d1)
